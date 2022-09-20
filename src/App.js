@@ -3,9 +3,10 @@ import Timer from "./Timer";
 
 function App() {
     const name = "Art";
-    return (
-        <div className="App" >
+    return (<div id="container" className="App">
             <Timer></Timer>
+            {/*<Form></Form>*/}
+            {/*<Test></Test>*/}
             {/*<h1>This is a h1</h1>*/}
             {/*<h2>This is a h2 and the author is {name}</h2>*/}
         </div>
